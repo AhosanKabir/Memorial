@@ -1,0 +1,506 @@
+/* Big screen :1200px. */
+@media only screen and (max-width: 1600px) {
+  .container {
+    max-width: 1360px;
+    width: 100%;
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  .logo-area a img{
+    flex-shrink: 0;
+    padding-left: 0;
+  }
+
+  .hero_content__wrapper h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin-top: 10px;
+}
+
+.timeline {
+  background: var(--section-bg-dark);
+  margin-top: -41px;
+  padding-top: 30px;
+  margin-bottom: -48px;
+}
+
+}
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+}
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .container{
+    max-width: 750px;
+  }
+
+  .hero_content__wrapper {
+    padding-left: 10px;
+  }
+
+  .timeline_content_right img {
+    padding-left: -10px;
+  }
+
+  .memory_header {
+    text-align: center;
+  }
+
+  .hero{
+    padding-top: 180px;
+  } 
+
+  .logo-area a img{
+    max-width: 200px;
+    padding-left: 0;
+  }
+
+  .logo-area a {
+    justify-content: start;
+}
+
+.memory_content_right img{
+  max-width: 450px;
+}
+
+.memory_content_left p{
+  margin-bottom: 40px;
+}
+
+.map_content_left {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.map_content_left img{
+  max-width: 450px;
+}
+
+.about_james_content__left img{
+  max-width: 450px;
+}
+.about_james_content__left{
+  justify-content: end;
+}
+
+.timeline{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 40px 0;
+}
+
+.donation {
+  padding-top: 80px;
+}
+
+.condolence{
+  margin-top: 100px;
+}
+
+.profile blockquote{
+  font-size: 13px;
+}
+
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+  .header-area{
+    padding: 20px 0 40px;
+}
+  .container {
+    padding: 0 20px;
+    max-width: 550px;
+  }
+
+  .logo-area a{
+    margin: unset;
+  }
+  .logo-area a img{
+    flex-shrink: 0;
+    padding-left: 0;
+  }
+
+  .bar a span{
+    top: 0px;
+  }
+
+  .hero{
+    padding-top: 100px;
+  }
+
+section {
+    overflow: hidden;
+}
+
+  .hero_left__image {
+    padding: 0px 30px ;
+  }
+
+  .hero_left__image .tri2 {
+    right: 47px;
+    bottom: 45px;
+  }
+
+  .hero_content__wrapper {
+    padding-left: 0px;
+  }
+
+  .hero_content__wrapper span {
+    font-size: 16px;
+    line-height: 13px;
+    letter-spacing: 0.3em;
+  }
+
+  .hero_content__wrapper h1 {
+    font-size: 24px;
+  line-height: 32px;
+  max-width: 267px;
+  width: 100%;
+  margin-top: 4px;
+  }
+
+  .hero_content__wrapper p {
+    max-width: 297px;
+    font-size: 12px;
+line-height: 16px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+  }
+
+  .mobile_btn_hero{
+    padding: 4.85238px 8.08729px;
+    border-radius: 2.02182px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+  }
+
+  .hero::after {
+    background: unset;
+  }
+
+  /* hero end  */
+
+  .about_james_content__right {
+    text-align: center;
+  }
+
+  .about_james__list {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 430px;
+    padding-left: 20px;
+  }
+
+  .buy_btn{
+    margin-bottom: 0;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+
+  /* --------- memory Section START ---------- */
+
+  .memory {
+    padding-top: 0;
+  }
+
+  .memory_header {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 0;
+  }
+
+  .memory_header span {
+    font-size: 10px;
+    line-height: 13px;
+    margin-bottom: 4px;
+  }
+
+  .memory_header h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .memory_header h4 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.14em;
+    margin-top: 8px;
+  }
+
+  /* --------- memory Section END ---------- */
+
+  /* --------- map section start ----------- */
+
+  .map {
+    margin-top: 50px;
+    padding: 22px 0;
+  }
+
+  .map_content_left {
+    max-width: 350px;
+    margin-inline: auto;
+    position: relative;
+  }
+
+  .map_content_left img {
+    width: 100%;
+    position: absolute;
+    top: -130px;
+  }
+
+  .map_content_right {
+    margin-top: 20px;
+    padding-top: 100px;
+    text-align: center;
+  }
+
+  .map_content_right h2 {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 20px;
+  }
+  .map_content_right .map_details p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+  .map_details {
+    gap: 8px;
+  }
+
+  .map_content_right span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    margin-top: 20px;
+  }
+
+  /* --------- map section END ------------ */
+
+  /* --------- About James section Start ------------ */
+  .about {
+    padding-top: 30px;
+  }
+
+  .about_james_content__left img {
+    max-width: 325px;
+    width: 100%;
+  }
+
+  .about_james__list .single_list img {
+    max-width: 12px;
+    width: 100%;
+  }
+
+  .single_list span {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .about_james__list {
+    max-width: 215px;
+    width: 100%;
+  }
+
+  .buy_btn {
+    padding: 4.19024px 6.98373px;
+    border-radius: 1.74593px;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    margin-top: 16px;
+    display: inline-block;
+  }
+
+  .single_list {
+    margin-bottom: 7px;
+  }
+
+  .single_list:last-child {
+    margin-bottom: 0;
+  }
+
+  /* --------- About james section END ------------ */
+
+  /* --------- Timeline section START ------------ */
+
+  .timeline {
+    background: unset;
+  }
+
+  .timeline_content_right img {
+    max-width: 345px;
+    width: 100%;
+    margin-top: 48px;
+  }
+
+  .timeline_content_right {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .timeline_content_left h2 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .timeline_content_single span {
+    width: 10.38px;
+    height: 10.38px;
+  }
+
+  .timeline_content_single h3 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .timeline_content_single p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .timeline_content_single {
+    margin-bottom: 16px;
+  }
+  .cta {
+    font-size: 10.3789px;
+    line-height: 16px;
+    gap: 6px;
+  }
+
+  .cta img {
+    width: 12px;
+    height: 12px;
+    margin-top: -2px;
+  }
+
+  /* donation  */
+  .donation {
+    padding-top: 125px;
+  }
+
+  .bamboo {
+    top: 11px;
+    left: 5px;
+  }
+
+  /* vedeo start  */
+    .play_btn{
+      width: 50px;
+    }
+  /* vedeo end  */
+
+  /* .video_mobile .container-fluid {
+    padding: 0;
+  }
+
+  .video_mobile .container-fluid .row>*{
+    padding: 0;
+  } */
+
+  /* --------- About james section END ------------ */
+
+  .timeline_content_left {
+    padding-left: 30px;
+  }
+
+
+  /* textarea start */
+   textarea{
+    height: 145px;
+  }
+
+  form label img{
+    width: 20px;
+    height: 20px;
+  }
+
+  form label{
+    gap: 8px;
+  }
+
+  form label span{
+    font-size: 10px;
+    line-height: 10px;
+  }
+
+  /* textarea end */
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer_logo_content {
+    max-width: unset;
+    margin-inline: auto;
+  }
+
+  .footer-logo {
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 80px;
+    width: 100%;
+  }
+
+  .footer {
+    padding-top: 13px;
+    padding-bottom: 31px;
+    margin-top: 30px;
+  }
+
+  .footer_logo_content p {
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 5px;
+  }
+
+  .footer_item_content h2{
+    font-size: 16px;
+    line-height: 13px;
+    margin-bottom: 8px;
+  }
+
+  .footer_list_items a{
+    font-size: 10px;
+   line-height: 11px;
+  
+  }
+
+  .footer_list_items{
+    gap: 4px;
+  }
+
+  .footer_last{
+    margin-bottom: 0;
+  }
+
+}
+
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* .container {width:450px} */
+  .container {
+    padding: 0px 22px;
+  }
+  .logo-area a img {
+    padding-left: 0;
+  }
+}
